@@ -16,7 +16,7 @@ export const PROJECTS = [
   },
   {
     id: "mitti-ceramics",
-    image: "/artisan-clay.jpg",
+    image: "/handmade-ceramic-pottery.jpg",
     title: "Mitti Studio",
     category: "E-Commerce & Brand Identity",
     year: "2025",
