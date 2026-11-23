@@ -58,6 +58,7 @@ export default function WorkPage() {
               </div>
             </Link>
           ))}
+          
         </div>
       </div>
     </main>
