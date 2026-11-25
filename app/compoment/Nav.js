@@ -39,10 +39,10 @@ export default function Nav() {
 
         <Link
           href="/contact"
-          className="flex items-center gap-3 pl-4 pr-1.5 py-1.5 rounded-full bg-zinc-900/90 border border-white/10 backdrop-blur-md hover:border-lime-400/50 transition-all duration-300 group"
+          className="flex items-center gap-3 pl-4 pr-1.5 py-1.5 rounded-full bg-zinc-900/90 border border-white/10 backdrop-blur-md hover:border-amber-500/50 transition-all duration-300 group"
         >
           <span className="text-xs font-medium text-zinc-200 group-hover:text-white">Contact us</span>
-          <span className="w-7 h-7 rounded-full bg-lime-400 text-zinc-950 flex items-center justify-center group-hover:scale-105 transition-transform">
+          <span className="w-7 h-7 rounded-full bg-amber-600 text-white flex items-center justify-center group-hover:bg-amber-500 group-hover:scale-105 transition-all">
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H8M17 7v9" />
             </svg>
@@ -63,7 +63,7 @@ export default function Nav() {
                     active ? "bg-white/10 text-white" : "text-zinc-400 hover:text-zinc-100 hover:bg-white/5"
                   }`}
                 >
-                  {active && <span className="w-1.5 h-1.5 rounded-full bg-lime-400 shadow-[0_0_8px_#a3e635]" />}
+                  {active && <span className="w-1.5 h-1.5 rounded-full bg-amber-500 shadow-[0_0_8px_#f59e0b]" />}
                   {link.label}
                 </Link>
               </li>
